@@ -6,11 +6,12 @@ from streamlit_pandas_profiling import st_profile_report
 
 # Web App Title
 st.markdown('''
-# **The EDA App**
+# **The Ellon Musk's Tweets EDA App**
 
-This is the **EDA App** created in Streamlit using the **pandas-profiling** library.
+This is the **Ellon Musk's Tweets EDA App** created in Streamlit using the **pandas-profiling** library.
 
-**Credit:** App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+**Deploy by:**  by [Richardson Andrade](http://github.com/jcrbsa) 
+**Acknowledge Credit Source-Code:** App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
 
 ---
 ''')
