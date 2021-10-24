@@ -10,7 +10,7 @@ st.markdown('''
 
 This is the **Ellon Musk's Tweets EDA App** created in Streamlit using the **pandas-profiling** library.
 
-**Deploy by:**  by [Richardson Andrade](http://github.com/jcrbsa) 
+**Deploy by:** [Richardson Andrade](http://github.com/jcrbsa) 
 **Acknowledge Credit Source-Code:** App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
 
 ---
@@ -46,6 +46,7 @@ else:
                 np.random.rand(100, 5),
                 columns=['a', 'b', 'c', 'd', 'e']
             )"""
+            columns = ['nretweets','nlikes','tweet','nreplies']g
             a = pd.read_csv('https://drive.google.com/uc?export=download&id=17S6ha416OK2C8_s8T4nD6REsUxVZdfCe')
             return a
         df = load_data()
