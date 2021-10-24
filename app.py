@@ -46,9 +46,9 @@ else:
                 np.random.rand(100, 5),
                 columns=['a', 'b', 'c', 'd', 'e']
             )"""
-            columns = ['nretweets','nlikes','tweet','nreplies']g
+            columns = ['nretweets','nlikes','tweet','nreplies']
             a = pd.read_csv('https://drive.google.com/uc?export=download&id=17S6ha416OK2C8_s8T4nD6REsUxVZdfCe')
-            return a
+            return a[columns]
         df = load_data()
         pr = ProfileReport(df, explorative=True)
         st.header('**Input DataFrame**')
